@@ -1,0 +1,7 @@
+テストするところ
+
+・NoMethodError: undefined method `full_title' for #<SiteLayoutTest:0x0000560e7cf88280>
+            test/integration/site_layout_test.rb:13:in 
+
+
+・    # 要修正 7.25

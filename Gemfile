@@ -45,7 +45,8 @@ group :development, :test do
   gem 'pry-rails'
   gem 'hirb'
   gem 'hirb-unicode'
-  gem 'rails-controller-testing'  
+  gem 'rails-controller-testing'
+  gem 'jquery-rails'
 end
 
 group :development do
