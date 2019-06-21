@@ -43,7 +43,7 @@ class User < ApplicationRecord
   end
 
    # アカウントを有効にする
-   def activate
+  def activate
     update_columns(activated: true, activated_at: Time.zone.now)
     # update_attribute(:activated,    true)
     # update_attribute(:activated_at, Time.zone.now)

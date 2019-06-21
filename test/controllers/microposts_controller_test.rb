@@ -22,7 +22,7 @@ class MicropostsControllerTest < ActionDispatch::IntegrationTest
 
   test "should redirect destroy for wrong micropost" do
     log_in_as(users(:michael))
-    micropost = microposts(:ants)
+    micropost = microposts(:tau_manifesto)
     assert_no_difference 'Micropost.count' do
       delete micropost_path(micropost)
     end

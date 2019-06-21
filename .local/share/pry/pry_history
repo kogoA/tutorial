@@ -8,3 +8,8 @@ pry
 Users.all
 show-models
 exit
+show db.all
+show-models
+exit
+show-models
+exit
